@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Rotate.cs" />
+    <Compile Include="Assets\Syntax.cs" />
     <Compile Include="Assets\changeColor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

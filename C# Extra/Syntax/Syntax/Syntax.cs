@@ -31,6 +31,5 @@ namespace Syntax
                 Console.Write("A Box has more sides than a Pyramid");
             }
         }
-        
     }
 }
