@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BoxColorChange.unity
+- path: Assets/Scenes/Animals.unity
   isLoaded: 1
   isActive: 1
