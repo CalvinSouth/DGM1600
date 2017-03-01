@@ -75,12 +75,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Arrays.cs" />
     <Compile Include="Assets\ElseClause.cs" />
+    <Compile Include="Assets\ForLoop.cs" />
+    <Compile Include="Assets\ForeachLoops.cs" />
+    <Compile Include="Assets\Lists.cs" />
     <Compile Include="Assets\Loops.cs" />
     <Compile Include="Assets\MathOperators.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Rotate.cs" />
     <Compile Include="Assets\Switches.cs" />
+    <Compile Include="Assets\WhileLoop.cs" />
     <Compile Include="Assets\changeColor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
