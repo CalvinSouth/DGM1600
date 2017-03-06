@@ -80,10 +80,12 @@
     <Compile Include="Assets\ForLoop.cs" />
     <Compile Include="Assets\ForeachLoops.cs" />
     <Compile Include="Assets\Lists.cs" />
+    <Compile Include="Assets\LogicOperators.cs" />
     <Compile Include="Assets\Loops.cs" />
     <Compile Include="Assets\MathOperators.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\Rotate.cs" />
+    <Compile Include="Assets\Scope.cs" />
     <Compile Include="Assets\Switches.cs" />
     <Compile Include="Assets\WhileLoop.cs" />
     <Compile Include="Assets\changeColor.cs" />
