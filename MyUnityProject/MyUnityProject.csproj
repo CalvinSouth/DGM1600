@@ -79,6 +79,7 @@
     <Compile Include="Assets\ElseClause.cs" />
     <Compile Include="Assets\ForLoop.cs" />
     <Compile Include="Assets\ForeachLoops.cs" />
+    <Compile Include="Assets\Functions.cs" />
     <Compile Include="Assets\Lists.cs" />
     <Compile Include="Assets\LogicOperators.cs" />
     <Compile Include="Assets\Loops.cs" />
