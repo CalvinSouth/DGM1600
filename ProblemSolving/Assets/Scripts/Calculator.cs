@@ -7,6 +7,14 @@ public class Calculator : MonoBehaviour
     public float output; 
     public InputField[] fields = new InputField[2]; // Holds the above inputboxes
     private int focus; // Controls which index to read from
+    public Text target;
+
+    // Use this for initialization
+    void Start()
+    {
+        Random random = new Random();
+        target = random.
+    }
 
     // Takes in a descriptive string which is used to control a switch statement
     public void Calculate(string operate)
