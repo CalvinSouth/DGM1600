@@ -10,10 +10,8 @@ public class TargetNum : MonoBehaviour {
     public int? num = random.Next(0, 10); // Sets num to a random number between 0 and 9. 
                                           // Contains a nullable int ("int?"), so as to remove the number from gameplay
 
-    public Text target, message; // Contains the target text field and victory/loss messages
+    public Text target; // Contains the target text field and victory/loss messages
     public InputField output; // Allows code to read the output field
-
-    public float speed = 20f;
 
     // Use this for initialization
     void Start () {
@@ -23,8 +21,6 @@ public class TargetNum : MonoBehaviour {
     // Checks the value of output
 	void Update()
     {
-        target.transform.Translate(0, -speed * Time.deltaTime, 0);
-
         if (num == int.Parse(output.text)) // Checks if num is equal to the output field
         {
             num = null; // Removes num from gameplay
