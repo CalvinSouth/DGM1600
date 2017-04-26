@@ -23,8 +23,9 @@ public class TargetNum : MonoBehaviour {
     {
         if (num == int.Parse(output.text)) // Checks if num is equal to the output field
         {
-            num = null; // Removes num from gameplay
-            target.text = "";
+            //num = null; // Removes num from gameplay
+            //target.text = "";
+            Destroy(target.gameObject);
         }
     }
 }
