@@ -7,10 +7,8 @@ using UnityEngine.UI;
 public class TargetNum : MonoBehaviour {
 
     public static System.Random random = new System.Random(); // Random object, allows random number to be called on startup
-    public int? num = random.Next(0, 10); // Sets num to a random number between 0 and 9. 
-                                          // Contains a nullable int ("int?"), so as to remove the number from gameplay
-
-    public Text target; // Contains the target text field and victory/loss messages
+    public int num = random.Next(0, 20), score = 0; // Sets num to a random number between 0 and 19. // Tracks score, starts at 0
+    public Text target, scoreText; // Contains the target text field and score text field
     public InputField output; // Allows code to read the output field
 
     // Use this for initialization
@@ -23,9 +21,11 @@ public class TargetNum : MonoBehaviour {
     {
         if (num == int.Parse(output.text)) // Checks if num is equal to the output field
         {
-            //num = null; // Removes num from gameplay
-            //target.text = "";
-            Destroy(target.gameObject);
+            target.transform.position = new Vector2(target.transform.position.x, 580); // Resets position of target
+            num = random.Next(0,20); // Gives num a new value
+            target.text = num.ToString(); // Displays new value in game
+            score += 1; // Updates score
+            scoreText.text = "Score: " + score; // Updates score text
         }
     }
 }
